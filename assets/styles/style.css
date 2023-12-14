@@ -2,10 +2,16 @@
 
 body {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    color: #fff;
 }
-
+:root {
+    --color-light: #fff;
+    --color-grey: #838383;
+    --color-dark: #1d1d1f;
+    --color-red: rgb(126, 20, 20);
+}
 .container{
-    max-width: 1100px;
+    max-width: 1200px;
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -13,9 +19,9 @@ body {
 /* HEADER SECTION */
 .header {
     height: 70px;
-    background-color: #fff;
-    border-bottom: 1px solid #E6E6E6;
-    color: #000;
+    background-color: var(--color-light);
+    border-bottom: 1px solid var(--color-light);
+    color: var(--color-dark);
     text-transform: uppercase;
     position: sticky;
     top: 0;
@@ -35,7 +41,7 @@ body {
 }
 
 .logo__num {
-    color: red;
+    color: var(--color-red);
 }
 
 .header__menu {
@@ -52,15 +58,14 @@ body {
 }
 
 .header__link:hover {
-    color: rgb(195, 34, 34);
+    color: var(--color-red);
 }
 
 .header__btn {
     width: 150px;
     height: 40px;
-    background: #fff;
     border-radius: 30px;
-    border: 1px solid  #cecece;
+    border: 1px solid  var(--color-dark);
     font-size: 13px;
     font-weight: 600;
     line-height: normal;
@@ -70,7 +75,57 @@ body {
 
 .header__btn:hover {
     /* background: rgb(105, 68, 68); */
-    background: #0a4217;
-    color: #fff;
+    background: var(--color-grey);
+    color: var(--color-light);
 }
 /* HEADER SECTION */
+
+/* HERO */
+.hero {
+    padding-top: 180px;
+    padding-bottom: 40px;
+    height: 100vh;
+    min-height: 900px;
+    background: url(../src/hero\ \(3\).jpg) no-repeat center/cover;
+    background-attachment: fixed;
+}
+.hero__title {
+    margin-bottom: 30px;
+    font-size: 76px;
+    font-weight: 600;
+    line-height: normal;
+}
+.hero__desc {
+    margin-bottom: 80px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.btn {
+    padding: 20px;
+    min-width: 180px;
+    color: var(--color-dark);
+    background-color: var(--color-light);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21px;
+    border-radius: 30px;
+    transition: color 0.3s  ease-in-out, background-color 0.3s ease-in-out;
+}
+.btn-light {
+    color: var(--color-dark);
+    background-color: var(--color-light);
+}
+.btn-light:hover {
+    color: var(--color-light);
+    background-color: var(--color-dark);
+}
+.btn-dark {
+    color: var(--color-light);
+    background-color: var(--color-dark);
+}
+.btn-dark:hover {
+    color: var(--color-dark);
+    background-color: var(--color-light);
+}
+/* HERO */
