@@ -1,0 +1,76 @@
+@import "./reset.css";
+
+body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1100px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* HEADER SECTION */
+.header {
+    height: 70px;
+    background-color: #fff;
+    border-bottom: 1px solid #E6E6E6;
+    color: #000;
+    text-transform: uppercase;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header__logo {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.logo__num {
+    color: red;
+}
+
+.header__menu {
+    display: flex;
+    column-gap: 40px;
+}
+
+.header__link {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.091px;
+    transition: 0.3s;
+}
+
+.header__link:hover {
+    color: rgb(195, 34, 34);
+}
+
+.header__btn {
+    width: 150px;
+    height: 40px;
+    background: #fff;
+    border-radius: 30px;
+    border: 1px solid  #cecece;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    transition: 0.3s;
+}
+
+.header__btn:hover {
+    /* background: rgb(105, 68, 68); */
+    background: #0a4217;
+    color: #fff;
+}
+/* HEADER SECTION */
