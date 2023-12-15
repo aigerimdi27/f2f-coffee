@@ -26,6 +26,11 @@
         margin-bottom: 10px;
         margin-left: 10px;
     }
+    .grid {
+        column-gap: 40px;
+        row-gap: 50px;
+        grid-template-columns: repeat(3, 1fr);
+    }
     .c-grid {
         grid-template-columns: auto;
         row-gap: 40px;
@@ -51,13 +56,13 @@
     .grid {
         column-gap: 40px;
         row-gap: 50px;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .club__img {
         width: 230px;
     }
 }
-@media (max-width: 321.99px) {
+@media (max-width: 460.99px) {
     .header__btn {
         display: none;
     }
@@ -96,9 +101,6 @@
     }
     .club__img {
         width: 230px;
-    }
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
     }
     .specials {
         padding: 5px;
