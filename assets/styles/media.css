@@ -1,0 +1,122 @@
+@media (max-width: 767.99px) {
+    .header {
+        height: 50px;
+    }
+    .header__menu {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    .logo {
+        font-size: 22px;
+    }
+    .header__btn {
+        width: 110px;
+        height: 40px;
+        margin-left: 250px;
+    }
+    .club {
+        padding-top:  40px;
+        padding-bottom: 0px
+    }
+    .club__img {
+        width: 300px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .c-grid {
+        grid-template-columns: auto;
+        row-gap: 40px;
+    }
+    .club__title {
+        font-size: 18px;
+        margin: 5px;
+    }
+    .club__desc {
+        font-size: 14px;
+        margin: 5px;
+    }
+    .footer {
+        padding-bottom: 0;
+    }
+} 
+
+@media (max-width: 575.99px) {
+    .header__btn {
+        font-size: 12px;
+        margin-left: 150px;
+    }
+    .grid {
+        column-gap: 40px;
+        row-gap: 50px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .club__img {
+        width: 230px;
+    }
+}
+@media (max-width: 321.99px) {
+    .header__btn {
+        display: none;
+    }
+    .logo {
+        font-size: 16px;
+    }
+    .hero {
+        height: auto;
+        min-height: auto;
+        padding-top: 100px;
+    }
+    .hero__desc {
+        margin-bottom: 50px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 15px;
+    }
+    .hero__title {
+        font-size: 25px;
+    }
+    .hero__desc {
+        font-size: 16px;
+    }
+    .sp__title {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .sp__desc {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .card__img {
+        width: 100%;
+        height: 100px;
+    }
+    .club__img {
+        width: 230px;
+    }
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .specials {
+        padding: 5px;
+    }
+    .bakery > .grid { 
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .bakery {
+        padding: 10px;
+    }
+    .card__title {
+        font-size: 14px;
+    }
+    .card__desc {
+        line-height: 12px;
+        font-size: 12px;
+    }
+    .club__left {
+        text-align: center;
+    }
+}

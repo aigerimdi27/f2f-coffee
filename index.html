@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalnia&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/media.css">
     <script src="./assets/js/snowfall.min.js"></script>
 </head>
 <body>
@@ -21,11 +22,33 @@
             <nav class="header__menu">
                 <a href="#" class="header__link">Меню</a>
                 <a href="#" class="header__link">Акции</a>
-                <a href="#" class="header__link">Кофейни</a>
                 <a href="#" class="header__link">Франшиза</a>
                 <a href="#" class="header__link">Клубная Карта</a>
             </nav>
             <button class="header__btn">Войти/Регистрация</button>
+            <nav class="burger">
+                <input type="checkbox" id="burger" hidden>
+                <label for="burger" class="burger__btn">
+                    <span class="burger__line"></span>
+                </label>
+                <div class="burger__menu">
+                    <label class="burger__exit" for="burger"></label>
+                    <ul class="burger__list">
+                        <li class="burger__item">
+                            <a href="#" class="burger__link">Меню</a>
+                        </li>
+                        <li class="burger__item">
+                            <a href="#" class="burger__link">Акции</a>
+                        </li>
+                        <li class="burger__item">
+                            <a href="#" class="burger__link red">Франшиза</a>
+                        </li>
+                        <li class="burger__item">
+                            <a href="#" class="burger__link">Клубная карта</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </header>
     <!-- HEADER -->
