@@ -76,7 +76,7 @@ body {
 
 .header__btn:hover {
     /* background: rgb(105, 68, 68); */
-    background: var(--color-grey);
+    background: var(--color-dark);
     color: var(--color-light);
 }
 /* HEADER SECTION */
@@ -141,6 +141,7 @@ body {
     position: relative;
     font-size: 50px;
     font-weight: 600;
+    text-align: center;
     line-height: normal;
     letter-spacing: 2.306px;
     text-transform: uppercase;
@@ -218,6 +219,41 @@ body {
     color: var(--color-light);
 }
 /* SECTION BAKERY */
+
+/* CLUB */
+.club {
+    color: var(--color-light);
+    background-color: var(--color-grey);
+    padding-top:  190px;
+    padding-bottom:  190px;
+}
+.club__title {
+    color: var(--color-dark);
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+}
+.club__desc {
+    margin-bottom: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.club__item {
+    margin-bottom: 35px;
+}
+.club__text-2 {
+    padding-top: 20px;
+}
+.club__img {
+    width: 560px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.489);
+}
+/* PORTFOLIO */
 
 /* FOOTER */
 .c-grid {
