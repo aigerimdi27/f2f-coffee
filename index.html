@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles/style.css">
+    <script src="./assets/js/snowfall.min.js"></script>
 </head>
 <body>
 <!-- HEADER -->
@@ -25,7 +26,6 @@
         </div>
     </header>
     <!-- HEADER -->
-
     <!-- SECTION HERO -->
 <section class="hero" id="hero">
     <div class="container">
@@ -34,7 +34,7 @@
             Без лишних слов. <br>
             Мы разработали новогоднее меню.
         </p>
-        <buton class="btn btn-dark">winter special</buton>
+        <buton class="btn btn-dark">&#9924; winter special &#9924;</buton>
     </div>
 </section>
 <!-- SECTION HERO -->
@@ -95,5 +95,15 @@
     </div>
 </footer>
 <!-- FOOTER -->
+<script>
+    snowFall.snow(document.querySelector("body"), {
+    round:true,
+    minSize: 1,
+    maxSize: 6,
+    shadow: true,
+    flakeCount: 150,
+    flakeColor: '#c7dfea',
+});
+</script>
 </body>
 </html>
